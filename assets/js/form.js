@@ -77,7 +77,7 @@ document.getElementById("signinForm").addEventListener("submit", function(event)
         localStorage.setItem("loggedIn", JSON.stringify(user));
         alert("Sign In successful!");
         // Redirect to index-2.html after successful login
-        window.location.href = "index.html";
+        window.location.href = "Home.html";
     } else {
         alert("Username or password is incorrect!");
     }
